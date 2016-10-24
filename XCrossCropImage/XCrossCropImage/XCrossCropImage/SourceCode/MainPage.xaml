@@ -6,7 +6,8 @@
              Title="XF Vietnam">
 
     <StackLayout>
-        <abstractions:CircleImage HeightRequest="100"
+        <abstractions:CircleImage Aspect="Fill"
+                                  HeightRequest="100"
                                   HorizontalOptions="Center"
                                   Source="{Binding AvatarImageSource}"
                                   WidthRequest="100" />

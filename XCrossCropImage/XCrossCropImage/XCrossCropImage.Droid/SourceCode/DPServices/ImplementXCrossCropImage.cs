@@ -4,9 +4,13 @@ using System.Threading.Tasks;
 using Android.Content;
 using Android.Graphics;
 using Plugin.CurrentActivity;
+using Xamarin.Forms;
+using XCrossCropImage.Droid.SourceCode.DPServices;
 using XCrossCropImage.Droid.SourceCode.XCropImage;
 using XCrossCropImage.SourceCode.DPServices;
 using XFMiniMobileApplication.SourceCode.Utilites.Events;
+
+[assembly: Dependency(typeof(ImplementXCrossCropImage))]
 
 namespace XCrossCropImage.Droid.SourceCode.DPServices
 {

@@ -3,8 +3,11 @@ using System.Threading.Tasks;
 using CoreGraphics;
 using UIKit;
 using Wapps.TOCrop;
+using Xamarin.Forms;
+using XCrossCropImage.iOS.SourceCode.DPServices;
 using XCrossCropImage.SourceCode.DPServices;
 
+[assembly: Dependency(typeof(ImplementXCrossCropImage))]
 namespace XCrossCropImage.iOS.SourceCode.DPServices
 {
     public class ImplementXCrossCropImage : IXCrossCropImage
